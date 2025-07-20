@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "LinkedIn Notification Cleaner",
+  "version": "1.0",
+  "description": "Delete all LinkedIn notifications with one click",
+  "permissions": ["scripting", "tabs", "activeTab"],
+  "host_permissions": ["https://www.linkedin.com/notifications/*"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon.png"
+  },
+  "icons": {
+    "128": "icon.png"
+  }
+}
